@@ -26,6 +26,6 @@ export const Poster = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-
+  cursor: pointer;
   img { width: 129px; height: 193px; }
 `;

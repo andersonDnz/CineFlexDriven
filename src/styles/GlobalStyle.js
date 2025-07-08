@@ -1,14 +1,15 @@
 import { createGlobalStyle } from 'styled-components';
 
-import styled from 'styled-components';
 
 export default createGlobalStyle`
   * { box-sizing: border-box; }
   body {
+    width: 100%;
     margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #C3CFD9;
-    color: #293845;
+    background-color: #000;
+    color: #fff;
   }
   button, a { cursor: pointer; text-decoration: none; }
 `;

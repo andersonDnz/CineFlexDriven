@@ -15,7 +15,7 @@ export const SeatItem = styled.li`
     if ($selected)
       return css`
         background: #FBE192;
-        border: 1px solid #F7C52B;
+        border: 1px solid #EE897F;
         color: #000000;
       `;
     if ($available)

@@ -12,7 +12,7 @@ import {
   Legend,
   Form,
   Footer,
-  Poster
+  Poster,
 } from './styles.js';
 
 
@@ -55,6 +55,7 @@ export default function Seats() {
             movie: session.movie.title,
             date: session.day.date,
             time: session.name,
+            posterURL: session.movie.posterURL,
           },
         })
       )
@@ -95,7 +96,7 @@ export default function Seats() {
           CPF do comprador:
           <input
             type="text"
-            placeholder="Digite seu CPF..."
+            placeholder="seu cpf ex:12345678910"
             value={cpf}
             onChange={(e) => setCpf(e.target.value)}
             pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}"

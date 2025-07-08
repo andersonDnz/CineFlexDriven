@@ -24,4 +24,5 @@ const List = styled.ul`
   padding: 0;
   max-width: 330px;
   margin: 20px auto;
+  cursor: pointer;
 `;
